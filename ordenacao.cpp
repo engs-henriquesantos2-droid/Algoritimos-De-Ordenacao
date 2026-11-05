@@ -14,6 +14,7 @@ void mostrarVetor (const vector<int>& v) { // Mostra todos os valores do vetor.
     cout << "]" << endl; // Fecha o vetor e pula uma linha.
 }
 
+
 void reiniciarContadores() { // Zera os contadores antes de cada algoritmo.
     comparacoes = 0; // Reinicia comparações.
     trocas = 0; // Reinicia trocas.
