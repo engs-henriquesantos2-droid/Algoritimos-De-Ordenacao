@@ -110,7 +110,7 @@ void merge(vector<int>& v, int inicio, int meio, int fim) { // Junta duas partes
 
     while (j < (int)direita.size()) { // Copia o que sobrou da direita.
         v[k] = direita[j]; // Copia o próximo valor da direita.
-        j++; // Avança na direita.
+        j++; // Avança para direita.
         k++; // Avança no vetor original.
         movimentos++; // Conta a cópia.
     }
