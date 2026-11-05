@@ -119,7 +119,7 @@ void merge(vector<int>& v, int inicio, int meio, int fim) { // Junta duas partes
 void mergeSort(vector<int>& v, int inicio, int fim) { // Divide e ordena o vetor.
     if (inicio < fim) { // Continua enquanto houver mais de um elemento.
         int meio = inicio + (fim - inicio) / 2; // Calcula o meio da parte atual.
-        mergeSort(v, inicio, meio); // Ordena a metade esquerda.
+        mergeSort(v, inicio, meio); // Ordena tambem a metade esquerda.
         mergeSort(v, meio + 1, fim); // Ordena a metade direita.
         merge(v, inicio, meio, fim); // Junta as duas metades ordenadas.
     }
