@@ -6,7 +6,7 @@ int comparacoes = 0; // Guarda a quantidade de comparações.
 int trocas = 0;      // Guarda a quantidade de trocas reais entre posições.
 int movimentos = 0;  // Guarda deslocamentos/cópias que não são trocas.
 
-void mostrarVetor(const vector<int>& v) { // Mostra todos os valores do vetor.
+void mostrarVetor (const vector<int>& v) { // Mostra todos os valores do vetor.
     cout << "[ "; // Abre a representação do vetor.
     for (int valor : v) { // Percorre cada valor do vetor.
         cout << valor << " "; // Mostra o valor atual.
