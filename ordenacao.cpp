@@ -149,7 +149,7 @@ int particionar(vector<int>& v, int baixo, int alto) { // Separa menores e maior
 }
 
 void quickSort(vector<int>& v, int baixo, int alto) { // Ordena usando Quick Sort.
-    if (baixo < alto) { // Só trabalha se houver pelo menos dois elementos.
+    if (baixo < alto) { // trabalha se houver pelo menos dois elementos.
         int p = particionar(v, baixo, alto); // Particiona o vetor e recebe o pivô.
         quickSort(v, baixo, p - 1); // Ordena a parte à esquerda do pivô.
         quickSort(v, p + 1, alto); // Ordena a parte à direita do pivô.
